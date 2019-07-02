@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBDBD">
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    android:layout_marginTop="5dp"
+    android:padding="5dp">
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/index01"
+            android:src="@drawable/img_bf"/>
+        <ImageView
+            android:id="@+id/index02"
+            android:src="@drawable/img_armor"/>
+        <ImageView
+            android:id="@+id/index03"
+            android:src="@drawable/img_belt"/>
+        <ImageView
+            android:id="@+id/index04"
+            android:src="@drawable/img_bow"/>
+    </TableRow>
+    <TableRow android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/index05"
+            android:src="@drawable/img_dwizip"/>
+        <ImageView
+            android:id="@+id/index06"
+            android:src="@drawable/img_skirt"/>
+        <ImageView
+            android:id="@+id/index07"
+            android:src="@drawable/img_stick"/>
+        <ImageView
+            android:id="@+id/index08"
+            android:src="@drawable/img_tear"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="+"
+            android:layout_span="4"
+            android:layout_gravity="center"
+            android:textSize="32dp"
+            android:textStyle="bold"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/index09"
+            android:src="@drawable/img_bf"/>
+        <ImageView
+            android:id="@+id/index10"
+            android:src="@drawable/img_armor"/>
+        <ImageView
+            android:id="@+id/index11"
+            android:src="@drawable/img_belt"/>
+        <ImageView
+            android:id="@+id/index12"
+            android:src="@drawable/img_bow"/>
+    </TableRow>
+    <TableRow android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/index13"
+            android:src="@drawable/img_dwizip"/>
+        <ImageView
+            android:id="@+id/index14"
+            android:src="@drawable/img_skirt"/>
+        <ImageView
+            android:id="@+id/index15"
+            android:src="@drawable/img_stick"/>
+        <ImageView
+            android:id="@+id/index16"
+            android:src="@drawable/img_tear"/>
+    </TableRow>
+
+</TableLayout>
+
+    <LinearLayout
+        android:layout_below="@id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/resultItemImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/resultItemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text=""/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
